@@ -14,6 +14,7 @@ In order to fulfil the third request, I drew a plane of a dice and made sure to 
 
 Using the same points I used for the cyan, I just had to increase the “t” in glTexCoord2f to be able to move up the colours and render the dice. To achieve this, I transformed the cyan cube method into a “generic” cube method that takes in a colour parameter and adds it to the y to “move up” to the next colour. Additionally, I have added a “colours” array which contains the y (or “t” in glTexCoord2f) offset for each of the colours.
 GlfwGetTime was helpful with achieving the fourth requirement. With the colours array in place, each colour was mapped to the relevant entry (0 – 5) which contains its offset, therefore using glfwGetTime I can floor the current second, and get one of the 6 colours, then use that to get its offset from the array, drawing the appropriately coloured cube. When glfwGetTime reaches 6, it gets reset to 0 to keep the “loop” going. This allowed me to fulfil the final requirement of this assignment as now the dice changes colours every second.
+#
 ![image](https://user-images.githubusercontent.com/58789172/123663913-c202f100-d82e-11eb-9371-e2d6fff436d8.png)
 # 
 ![image](https://user-images.githubusercontent.com/58789172/123663937-c6c7a500-d82e-11eb-963a-1fc239ba58c3.png)
