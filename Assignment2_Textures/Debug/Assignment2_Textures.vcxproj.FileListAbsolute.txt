@@ -1,0 +1,4 @@
+C:\Users\godly\Desktop\Assignment2_Textures\Debug\Assignment2_Textures.exe
+C:\Users\godly\Documents\GitHub\graphics-cw2\Assignment2_Textures\Debug\Assignment2_Textures.exe
+C:\Users\Kamil\source\repos\graphics-cw2\Assignment2_Textures\Debug\Assignment2_Textures.exe
+C:\Users\Kamil\source\repos\graphics-cw2\Assignment2_Textures\Debug\Assignment2_Textures.pdb
